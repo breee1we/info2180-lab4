@@ -6,7 +6,18 @@
         <script src="app.js" defer></script>
     </head>
     <body>
+        <header>
         <h1>Avenger character Search</h1>
-        <button id="search-btn">Search</button>
+        </header>
+
+        <main>
+            <label for="search">Search by full name or alias</label>
+            <div class="search-row">
+                <input type="text" id="search">
+                <button id="search-btn">Search</button>
+            </div>
+            <h2>Result</h2>
+            <div id="result"></div>
+        </main>
     </body>
 </html>
